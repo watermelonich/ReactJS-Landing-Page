@@ -16,12 +16,12 @@
   flex: 1;
   padding-right: 20px;
   text-align: left;
-  margin-left: 120px;
+  margin-left: 50px;
 }
 
 .serv-cards {
   display: flex;
-  justify-content: flex-start; /* Align s-cards to the left */
+  justify-content: flex-start;
 }
 
 .s-card {
@@ -51,8 +51,8 @@
   margin: 0 10px;
   border: 1px solid rgb(188, 188, 188);
   border-radius: 10px;
-  width: 210px;
-  height: 210px;
+  width: 160px;
+  height: 160px;
   color: grey;
   display: block;
   justify-content: center;
@@ -75,7 +75,10 @@
 
 .imageb {
   padding: 0;
+  margin-top: 90px;
   margin-right: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

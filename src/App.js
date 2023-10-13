@@ -60,31 +60,31 @@ function App() {
       <div className='textandimg'>
         <div className="flex-container">
           <div className="left-content">
-        <h2 style={{ color: '#3C70F6', marginBottom: 9, marginTop: 80 }}>Innovating Technologies</h2>
-        <p style={{ width: 290 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        <h4 style={{ width: 510 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-        <h3 className="e" style={{ fontSize: 20, color: 'grey'}}>OUR SERVICES</h3>
+        <h2 style={{ color: '#3C70F6', marginBottom: 29, marginTop: 80 }}>Innovating Technologies</h2>
+        <p style={{ width: 500 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <h4 style={{ width: 600 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+        <h3 className="e" style={{ fontSize: 15, color: 'grey', marginLeft: 10, marginTop: 40 }}>OUR SERVICES</h3>
 
         <div className='eno'>
       <div className="serv-cards">
         <div id='s-card'>
           <div className='s-card'>
             <h4 style={{ padding: 20, fontSize: 15 }}>FAST DELIVERY</h4>
-            <img width="100" height="100" src="https://img.icons8.com/ios/100/EBEBEB/truck--v1.png" alt="truck--v1"/>
+            <img width="50" src="https://img.icons8.com/ios/100/EBEBEB/truck--v1.png" alt="truck--v1"/>
           </div>
         </div>
 
         <div id='s-card'>
           <div className='s-card'>
             <h4 style={{ padding: 20, fontSize: 15 }}>TOP SERVICES</h4>
-            <img width="100" src="https://img.icons8.com/ios/50/EBEBEB/sparkling.png" alt="sparkling"/>
+            <img width="50" src="https://img.icons8.com/ios/50/EBEBEB/sparkling.png" alt="sparkling"/>
           </div>
         </div>
 
         <div id='s-card'>
           <div className='s-card'>
             <h4 style={{ padding: 20, fontSize: 15 }}>BEST QUALITY</h4>
-            <img width="100" src="https://img.icons8.com/ios/50/EBEBEB/cardboard-box.png" alt="cardboard-box"/>
+            <img width="50" src="https://img.icons8.com/ios/50/EBEBEB/cardboard-box.png" alt="cardboard-box"/>
           </div>
         </div>
       </div>
@@ -94,11 +94,11 @@ function App() {
         <br></br>
 
         <div className='imageb'>
-            <img src={gifen} alt='ejwi' width={430}></img>
+            <img src={gifen} alt='ejwi' width={630}></img>
           </div>
           </div>
         </div>
-        <button type="button" class="btn btn-primary d-flex justify-content-start left-content">Learn more</button>
+        <button type="button" class="btn btn-primary d-flex justify-content-start left-content" style={{ marginTop: 50 }}>Learn more</button>
       </div>
   );
 }
