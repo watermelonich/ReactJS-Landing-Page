@@ -81,6 +81,44 @@
   border-radius: 50%;
 }
 
+.nav-link:hover {
+  padding: 5px;
+  text-decoration: underline;
+  transition: ease-in 1;
+}
+
+/* stripe content */
+
+.stripe {
+  margin-top: 160px;
+  height: 430px;
+  background-color: #3C70F6;
+  margin-bottom: 160px;
+}
+
+.stripecontent {
+  display: flex;
+}
+
+.stripebutton h5 {
+  color: white;
+  font-weight: 300;
+}
+
+.stripebutton {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 8px;
+  width: 148px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.stripebutton h5:hover {
+  text-decoration: 1px solid white underline;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

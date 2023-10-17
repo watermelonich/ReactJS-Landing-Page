@@ -99,6 +99,33 @@ function App() {
           </div>
         </div>
         <button type="button" class="btn btn-primary d-flex justify-content-start left-content" style={{ marginTop: 50 }}>Learn more</button>
+
+      <div className='stripe'>
+        <div className='stripecontent'>
+
+          <h4 style={{ padding: 20, fontSize: 15, color: 'white' }}>OUR LOCATIONS</h4>
+          <div className='stripemap'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359536.97792582423!2d-76.1298960911324!3d45.25016591890609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b25f5113af%3A0x8a6a51e131dd15ed!2sOttawa%2C%20Ontario%2C%20Canada!5e0!3m2!1sit!2sit!4v1697564035304!5m2!1sit!2sit" title="map" width="593" height="315" style={{ marginTop: 50 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div className='recti' style={{ height: 330, width: 2, background: 'white', borderRadius: 20, margin: 40 }}></div>
+
+          <div className='stripetext'>
+            <p style={{ width: 380, textAlign: 'left', marginTop: 60, color: 'white' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+
+            <br></br>
+            <br></br>
+            <br></br>
+
+          <div className='stripebutton'>
+            <h5>Learn more</h5>
+          </div>
+          </div>
+
+        </div>
+      </div>
+
+      
       </div>
   );
 }
